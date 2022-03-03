@@ -1,4 +1,6 @@
-window.addEventListener('DOMContentLoaaded', function () {
+require('es6-promise').polyfill();
+
+window.addEventListener('DOMContentLoaded', function () {
 
     "use strict";
     let calc = require('./parts/calc.js'),
